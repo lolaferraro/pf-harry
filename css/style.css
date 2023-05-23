@@ -126,3 +126,11 @@ margin-left: 20px;
     grid-column: 1/2;
     grid-row: 2/3;
 }
+
+/*----pagina galeria----*/
+
+/*----Diseño responsive----*/
+
+@media (min-width: 320px) {
+    .texto-1 { font-size: 10px;}
+} 
