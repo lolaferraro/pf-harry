@@ -24,9 +24,15 @@ body main .cuestionario form {
 
 
  .navbar-nav{
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
     padding: 10px;
     background-color: rgb(255, 192, 203);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display:flex;
+    justify-content: flex-end;
 }
  
 .navbar-brand {
@@ -239,4 +245,5 @@ margin-left: 20px;
         width: 150px;
         height: 150px;
     }
-}
+} 
+/*----Diseño responsive---*/ 
