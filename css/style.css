@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
-/*----General----*/
+/*General*/
+
 
 body {
     min-height: 100vh;
 } 
+
 
 body main .cuestionario form {
     display: flex;
@@ -44,6 +46,7 @@ section article div .texto-contacto {
     font-family: 'Times New Roman', Times, serif;
     width: 500px;
     margin: 100px;
+    box-sizing: border-box;
 } 
 
 footer  {
@@ -65,7 +68,7 @@ margin-left: 20px;
     height: 30px;
  } 
 
- /*----General----*/
+ /*General*/
 
 .title h1 {
     padding: 5px;
@@ -103,7 +106,7 @@ margin-left: 20px;
     margin: 40px;
 }
 
-/*----pagina galeria----*/
+/*pagina galeria*/
 
 .Cont-Grillas {
     width: 80%;
@@ -130,16 +133,29 @@ margin-left: 20px;
     grid-row: 2/3;
 }
 
-/*----pagina galeria----*/
+/*pagina galeria*/
 
-/*----Diseño responsive----*/
+/*Diseño responsive*/
 
 @media (min-width:420px) {
     .section-1 .texto-1  { font-size: 20px; }
 }
 
 @media (max-width: 420px) {
+    footer div .iconos {
+        position: absolute;
+    }
+}
+
+
+@media (max-width: 420px) {
     .portada .img-hs-portada { width: 150px;
      height: 200px ;
     }
+}
+
+@media (min-width:420px) {
+    section article div .texto-contacto{ font-size: 25px;
+    width: 80px;
+    height: 50px;}
 }
