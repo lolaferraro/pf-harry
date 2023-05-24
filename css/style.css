@@ -24,10 +24,10 @@ body main .cuestionario form {
 
 
  .navbar-nav{
-    display: inline-block
+    display: inline-block;
     padding: 10px;
     background-color: rgb(255, 192, 203);
- }
+}
  
 .navbar-brand {
     font-size: 30px;
