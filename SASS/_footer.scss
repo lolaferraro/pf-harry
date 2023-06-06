@@ -1,0 +1,24 @@
+footer{
+    width: 100%;
+    background-color: rgb(255, 192, 203);
+    display: flex;
+    justify-content: end;
+    height: 80px;
+    align-items: center;
+    display: inline-block;
+    
+}
+
+.d-flex  {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.footer-iconos {
+    display: inline-block;
+    margin-left: 20px;
+     }
+footer div ul li img{
+width: 30px;
+height: 30px;
+} 

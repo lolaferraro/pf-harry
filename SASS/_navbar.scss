@@ -1,0 +1,17 @@
+.navbar-expand-lg .navbar-collapse {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 192, 203);
+}
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: rgb(255, 192, 203);
+}
+ 
