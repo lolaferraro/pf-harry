@@ -93,4 +93,25 @@
         width: 150px;
         height: 150px;
     }
-} 
+}  
+
+@media (max-width: 650px) {
+    .harrys-house {
+        height: 200px;
+        width: 100%;
+    }
+}  
+
+@media (max-width: 650px) {
+    .fine-line {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .hs1 {
+        height: 200px;
+        width: 100%;
+    }
+}

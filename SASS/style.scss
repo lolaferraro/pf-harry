@@ -9,6 +9,8 @@
 @import "grillas"; 
 //IMPORT diseño-responsive
 @import "diseño-responsive"; 
+//IMPORT animaciones
+@import "animaciones"; 
 
 *{
     margin: 0;
@@ -33,14 +35,22 @@ body main .cuestionario form {
     padding: 0px;
 }
 
-/* header{
-    height: 100px;
-    width: 100%;
-    background-color: rgb(252, 246, 246);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
+// pagina discografia
+
+.harrys-house {
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+
+.fine-line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hs1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
  /*General*/

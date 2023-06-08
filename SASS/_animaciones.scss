@@ -1,0 +1,58 @@
+.navbar-brand {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+    }
+} 
+ 
+.grilla-img1 :hover {
+transform: scale(2,2);
+transition: 1s;
+}
+
+.grilla-img2 :hover {
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+
+.grilla-img3 :hover {
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+.grilla-img4:hover {
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+.grilla-img5 :hover {
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+.grilla-img6 :hover {
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+.grilla-img7 :hover {
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+.grilla-img8 :hover {
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+.nav-item :hover {
+background-color: white;
+}
+
+
