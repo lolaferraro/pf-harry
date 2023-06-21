@@ -1,15 +1,10 @@
 footer{
     width: 100%;
     background-color: rgb(255, 192, 203);
-    display: flex;
-    justify-content: end;
-    height: 80px;
-    align-items: center;
-    display: inline-block;
-    
+   display: inline-block;
 }
-
-.d-flex  {
+ 
+.d-flex {
     display: flex;
     justify-content: end;
     align-items: center;
