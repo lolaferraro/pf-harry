@@ -30,14 +30,12 @@
 
 @media (max-width:500px) {
     .Cont-Grillas {
-        width: 40%;
     height: 450px;
-    border: 2px ;
     display: grid;
     margin: 50px; 
     margin-top: 10px;
-    grid-template-columns: repeat(2,120px) ;
-    grid-template-rows: repeat(4,120px);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
     column-gap: 15px;
     row-gap: 5px;
     }
@@ -49,17 +47,16 @@
 
    
 
-@media (min-width: 500px) and (max-width:1000px) {
+@media (min-width: 320px) and (max-width:800px) {
     .Cont-Grillas {
-        width: 40%;
-    height: 550px;
-    border: 2px ;
-    display: grid;
-    margin: 50px; 
-    grid-template-columns: repeat(4,150px) ;
-    grid-template-rows: repeat(3,150px);
+    margin: 20px; 
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
     column-gap: 15px;
     row-gap: 20px;
+    height: fit-content;
+    justify-items: center;
+    width: 100vw;
     }    
 }
 
