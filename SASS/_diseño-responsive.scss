@@ -5,14 +5,10 @@
     }
 }
 
- 
-
-
 @media (max-width: 600px) {
     .portada .img-hs-portada { width: 300px;
      height: 350px ;
     }
-    {
         section article div .texto-contacto {
             border: solid 1px rgb(255, 255, 255);
             padding: 5px;
@@ -24,12 +20,10 @@
             width: 200px;
             margin: 100px;
         }
-    }
-    {
         .section-1 .texto-1  { font-size: 12px;
             margin-top: 5px;
     }
-    }
+    
 }
 
 
@@ -47,17 +41,13 @@
     column-gap: 15px;
     row-gap: 5px;
     }
-    {
-        .Cont-Grillas img {
-           width: 120px;
-           height: 120px;
-       }
-       }
+    .Cont-Grillas img {
+        width: 120px;
+        height: 120px;
+    }
 }
 
-
-
-
+   
 
 @media (min-width: 500px) and (max-width:1000px) {
     .Cont-Grillas {
@@ -70,32 +60,27 @@
     grid-template-rows: repeat(3,150px);
     column-gap: 15px;
     row-gap: 20px;
+    }    
+}
+
+@media (min-width: 500px) and (max-width:1000px)
+{
+    .Cont-Grillas .grilla-img7 {
+        grid-column: 3/4;
+        grid-row: 3/4;
     }
-    {
-        .Cont-Grillas .grilla-img7 {
-            grid-column: 3/4;
-            grid-row: 3/4;
-        }
+    .Cont-Grillas .grilla-img8 {
+        grid-column: 1/2;
+        grid-row: 3/4;
     }
-    {
-        .Cont-Grillas .grilla-img8 {
-            grid-column: 1/2;
-            grid-row: 3/4;
-        }
+    .Cont-Grillas .grilla-img4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
     }
-    {
-        .Cont-Grillas .grilla-img4 {
-            grid-column: 1/2;
-            grid-row: 2/3;
-        }
+    .Cont-Grillas img {
+        width: 150px;
+        height: 150px;
     }
-    {
-        .Cont-Grillas img {
-            width: 150px;
-            height: 150px;
-        }
-    }  
-    
 }
 
 @media (max-width: 650px) {
@@ -103,16 +88,15 @@
         height: 200px;
         width: 100%;
     }
-    {
+    
         .fine-line {
             height: 200px;
             width: 100%;
         }
-    }
-    {
+    
+    
         .hs1 {
             height: 200px;
             width: 100%;
         }
-    }
-}  
+    }  
