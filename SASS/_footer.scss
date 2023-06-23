@@ -2,6 +2,10 @@ footer{
     width: 100%;
     background-color: rgb(255, 192, 203);
    display: inline-block;
+   .footer-iconos {
+    display: inline-block;
+    margin-left: 20px;
+     }  
 }
  
 .d-flex {
@@ -9,11 +13,8 @@ footer{
     justify-content: end;
     align-items: center;
 }
-.footer-iconos {
-    display: inline-block;
-    margin-left: 20px;
-     }
+
 footer div ul li img{
-width: 30px;
-height: 30px;
-} 
+    width: 30px;
+    height: 30px;
+    } 

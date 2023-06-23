@@ -9,50 +9,11 @@
 @import "grillas"; 
 //IMPORT discografia
 @import "discografia"; 
+//IMPORT contacto
+@import "contacto";
+//IMPORT general
+@import "general"; 
 //IMPORT diseño-responsive
 @import "diseño-responsive"; 
 //IMPORT animaciones
 @import "animaciones"; 
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style-type:none ;
-    box-sizing: border-box;
-}
-
-/*General*/
-
-
-body {
-    min-height: 100vh;
-} 
-// cuestionario pagina contacto 
-body main .cuestionario form {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    margin: 50px;
-    padding: 0px;
-}
-
-// pagina discografia
-
-.harrys-house {
-    margin-top: 50px;
-    margin-bottom: 50px;
-} 
-
-.fine-line {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.hs1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-
- /*General*/

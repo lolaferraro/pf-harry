@@ -9,16 +9,35 @@
     column-gap: 80px;
     row-gap: 20px;
     justify-content: center;
-    align-content: center;
+    align-content: center; 
 }
+
+@mixin tamanos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
 .Cont-Grillas img {
-    width: 200px;
-    height: 200px;
+    @include tamanos(200px,200px); 
+
+    .Cont-Grillas .grilla-img8 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .Cont-Grillas .grilla-img5 {
+        grid-column: 3/2;
+    }
 }
-.Cont-Grillas .grilla-img5 {
-    grid-column: 3/2;
-}
-.Cont-Grillas .grilla-img8 {
-    grid-column: 1/2;
-    grid-row: 2/3;
+
+.txt-vintage{
+    font-family: $text-font;
+    font-size: 20px;
+    background-color: rgba(255, 192, 203, 0.34);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    border-radius: 12px;
+    width: 50%;
+    align-content: center;
 }

@@ -1,0 +1,31 @@
+body main .cuestionario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 12px;
+    font-weight: 100;
+    font-family: $text-font;
+}
+
+section article div .texto-contacto {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: $text-font;
+    margin: 100px;
+} 
+
+.boton {
+    background-color: rgb(100, 100, 252);
+}
+
+.boton-c {
+    background-color: rgb(100, 100, 252);
+    margin-top: 20px;
+}
+    
