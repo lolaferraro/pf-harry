@@ -68,11 +68,6 @@
   background-color: rgba(255, 192, 203, 0.249);
 }
 
-.navbar-expand-lg .navbar-collapse {
-  display: flex;
-  justify-content: end;
-}
-
 footer {
   width: 100%;
   background-color: rgb(255, 192, 203);
@@ -101,7 +96,8 @@ footer div ul li img {
   margin: 100px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  column-gap: 80px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
   row-gap: 20px;
   justify-content: center;
   align-content: center;
@@ -111,12 +107,12 @@ footer div ul li img {
   width: 200px;
   height: 200px;
 }
-.Cont-Grillas img .Cont-Grillas .grilla-img5 {
-  grid-column: 3/2;
-}
 .Cont-Grillas img .Cont-Grillas .grilla-img8 {
   grid-column: 1/2;
   grid-row: 2/3;
+}
+.Cont-Grillas img .Cont-Grillas .grilla-img5 {
+  grid-column: 3/2;
 }
 
 .txt-vintage {
@@ -134,64 +130,59 @@ footer div ul li img {
 
 .album {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
-.album .harrys-house {
+.album .harrys-house, .album .fine-line {
   border-radius: 12px;
+  height: 500px;
+  width: 400px;
   margin-top: 50px;
-  margin-bottom: 50px;
-  height: 400px;
-}
-.album .fine-line {
-  border-radius: 12px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 400px;
 }
 .album .hs1 {
   border-radius: 12px;
+  height: 500px;
+  width: 400px;
   margin-top: 50px;
-  margin-bottom: 50px;
-  height: 400px;
-}
-
-.cancion {
-  display: flex;
-  justify-content: center;
-}
-.cancion .as-it-was {
-  border-radius: 12px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 350px;
-  width: 250px;
-  margin-right: 200px;
-}
-.cancion .watermelon-sugar {
-  border-radius: 12px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 350px;
-  width: 250px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
-.cancion .Sign-of-the-times {
-  border-radius: 12px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 350px;
-  width: 250px;
-  margin-left: 200px;
 }
 
 .texto-disc {
   display: flex;
   justify-content: center;
-  font-size: 30px;
-  font-family: "Playfair Display", serif;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 192, 203);
+  align-items: center;
+  font-size: 20px;
+  font-family: "Pathway Extreme", sans-serif;
+  font-weight: 200;
+  background-color: rgba(255, 192, 203, 0.497);
+}
+
+.cancion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.as-it-was {
+  border-radius: 12px;
+  height: 350px;
+  width: 250px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.watermelon-sugar {
+  border-radius: 12px;
+  height: 350px;
+  width: 250px;
+  margin-top: 50px;
+}
+
+.sign-of-the-times {
+  padding: 10px;
+  border-radius: 12px;
+  height: 350px;
+  width: 250px;
+  margin-top: 50px;
 }
 
 body main .cuestionario form {
@@ -290,8 +281,10 @@ body {
   .Cont-Grillas {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
-    column-gap: 15px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
     row-gap: 20px;
+    height: -moz-fit-content;
     height: fit-content;
     justify-items: center;
   }
@@ -314,18 +307,12 @@ body {
     height: 150px;
   }
 }
-@media (max-width: 650px) {
-  .harrys-house {
-    height: 200px;
-    width: 100%;
+@media (min-width: 800px) {
+  .album {
+    flex-direction: row;
   }
-  .fine-line {
-    height: 200px;
-    width: 100%;
-  }
-  .hs1 {
-    height: 200px;
-    width: 100%;
+  .cancion {
+    flex-direction: row;
   }
 }
 .navbar-brand {
@@ -381,10 +368,4 @@ body {
 
 .nav-item :hover {
   background-color: rgb(255, 255, 255);
-}
-
-.section-2 .portada-2 .img-1d {
-  @ext;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

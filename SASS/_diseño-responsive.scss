@@ -5,6 +5,7 @@
     .section-2 {
         flex-direction: column;
     }
+     
 }
 
 @media (max-width: 600px) {
@@ -49,6 +50,7 @@
         width: 120px;
         height: 120px;
     }
+  
 }
 
 @media (min-width: 320px) and (max-width:800px) {
@@ -59,11 +61,13 @@
     row-gap: 20px;
     height: fit-content;
     justify-items: center;
-    }    
+    }   
+    
 }
 
-@media (min-width: 500px) and (max-width:1000px)
+@media (min-width: 500px) and (max-width: 1000px)
 {
+    
     .Cont-Grillas .grilla-img7 {
         grid-column: 3/4;
         grid-row: 3/4;
@@ -80,52 +84,16 @@
         width: 150px;
         height: 150px;
     }
-}
+    
+} 
 
-@media (max-width: 650px) {
-    .harrys-house {
-        height: 200px;
-        width: 100%;
+@media (min-width: 800px) {
+    .album{
+        flex-direction: row;
     }
-        .fine-line {
-            height: 200px;
-            width: 100%;
-        }
-        .hs1 {
-            height: 200px;
-            width: 100%;
-        }
-    }  
 
-@media (max-width:900px) {
-   .cancion .as-it-was {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 150px;
-        width: 50px;
-        margin-right: 10px;
+    .cancion{
+        flex-direction: row;
     }
-   .cancion .watermelon-sugar {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 150px;
-        width: 50px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    .cancion .Sign-of-the-times {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 150px;
-        width: 50px;
-        margin-left: 10px;
-    }
-}
-
-@media (max-width: 900px) {
-    .harrys-house {
-        height: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+    
 }
